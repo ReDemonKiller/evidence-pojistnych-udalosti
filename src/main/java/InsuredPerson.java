@@ -1,3 +1,5 @@
+package main.java;
+
 // Třída reprezentující pojištěnou osobu
 public class InsuredPerson {
 
