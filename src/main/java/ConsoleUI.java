@@ -72,7 +72,7 @@ public class ConsoleUI {
             manager.addInsured(person);
             pause();
         } catch (NumberFormatException e) {
-            System.out.println("Chyba: Věk musí být platné číslo.");
+            System.out.println("Chyba: Věk musí obsahovat pouze číslice.");
         } catch (IllegalArgumentException e) {
             System.out.println("Chyba: " + e.getMessage());
         }
