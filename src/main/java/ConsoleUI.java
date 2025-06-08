@@ -2,8 +2,18 @@ package main.java;
 
 import java.util.Scanner;
 
-// Třída pro uživatelské rozhraní
+/**
+ * Třída pro uživatelské rozhraní aplikace.
+ * Zajišťuje interakci s uživatelem prostřednictvím konzole.
+ */
 public class ConsoleUI {
+
+    /**
+     * Přidá nového pojištěného na základě vstupu uživatele.
+     *
+     * @throws NumberFormatException pokud je věk neplatné číslo
+     * @throws IllegalArgumentException pokud jsou vstupní data neplatná
+     */
     private InsuranceManager manager;
     private Scanner scanner;
 

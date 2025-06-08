@@ -3,7 +3,10 @@ package main.java;
 import java.util.ArrayList;
 import java.util.List;
 
-// Třída pro správu pojištěných
+/**
+ * Třída pro správu pojištěných osob.
+ * Umožňuje přidávání, výpis a vyhledávání pojištěných.
+ */
 public class InsuranceManager {
     // Kolekce pro uložení pojištěných
     private List<InsuredPerson> insuredList;
